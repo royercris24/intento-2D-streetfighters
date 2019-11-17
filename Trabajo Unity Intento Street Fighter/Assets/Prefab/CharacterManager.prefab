@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &108232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475202}
+  - component: {fileID: 114704010725235754}
+  m_Layer: 0
+  m_Name: CharacterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475202
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 890.60547, y: 370.56497, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 108232}
+  m_IsPrefabAsset: 1
+--- !u!114 &114704010725235754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84dfb9301a25626458eedd1c5b945f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfUser: 0
+  players:
+  - playerId: Player1
+    inputId: 
+    playerType: 0
+    hasCharacter: 0
+    playerPrefab: {fileID: 0}
+    playerStates: {fileID: 0}
+    score: 0
+  - playerId: Player2
+    inputId: 1
+    playerType: 1
+    hasCharacter: 0
+    playerPrefab: {fileID: 0}
+    playerStates: {fileID: 0}
+    score: 0
+  characterList:
+  - charId: Sean 1
+    prefab: {fileID: 1079990196077006, guid: 37fadae938ede8441a5943d3ff05c3ca, type: 2}
+  - charId: Sean 2
+    prefab: {fileID: 1247177838286202, guid: 004b1d35cfcedf24986d92c67a6def90, type: 2}
+  - charId: Sean 3
+    prefab: {fileID: 1325411694075428, guid: 567ec4e53729ee04f86002a39420df60, type: 2}
